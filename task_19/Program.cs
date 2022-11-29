@@ -12,7 +12,7 @@ if (num.Length > 5 || num.Length <5) Console.WriteLine ("Число не пят�
 
 else 
 {
-    if (num[0]==num[4] || num[1]==num[3])
+    if (num[0]==num[4] && num[1]==num[3])
     {
         Console.WriteLine($"{num} - палиндром.");
     }
