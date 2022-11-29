@@ -8,11 +8,13 @@ Console.Write("Введите пятизначое число:");
 string num = Console.ReadLine();
 
 
-if (num.Length > 5 ||num.Length <5) Console.WriteLine("Число не пятизначное");
-else {
+if (num.Length > 5 || num.Length <5) Console.WriteLine ("Число не пятизначное");
+
+else 
+{
     if (num[0]==num[4] || num[1]==num[3])
     {
-    Console.WriteLine("Ваше число - палиндром.");
+        Console.WriteLine($"{num} - палиндром.");
     }
-    else Console.WriteLine("Ваше число не палиндром.");
+    else Console.WriteLine($"{num} - не палиндром.");
 }
