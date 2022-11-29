@@ -8,7 +8,7 @@ Console.Write("Введите пятизначое число:");
 string num = Console.ReadLine();
 
 
-if (num.Length > 5 ||num.Length <5) Console.WriteLine("Введи правильное число");
+if (num.Length > 5 ||num.Length <5) Console.WriteLine("Число не пятизначное");
 else {
     if (num[0]==num[4] || num[1]==num[3])
     {
